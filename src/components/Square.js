@@ -16,3 +16,9 @@ const Square = ({ value, onClick }) => (
 );
 
 export default Square;
+
+//destructuring props
+//props is an object that lets you get values
+//const Square = (props) is usually passed down with props.value for example
+//destructuring it like above let's to avoid having to type props. everytime
+//curly braces is the sign of an object
